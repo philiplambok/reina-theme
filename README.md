@@ -1,5 +1,5 @@
 # Reina Theme 
-![reina chan](/assets/reina.jpg | width=100)
+<img src="/assets/reina.jpg" alt="" width="100">
 Reina theme is library based on bootstrap to make your web page more kawaii just like Reina <3. 
 
 ## Prerequisite
