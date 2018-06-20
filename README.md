@@ -22,7 +22,7 @@ Reina theme is library based on bootstrap to make your web page more kawaii just
 </head>
 <body>
 	<div id="app">
-		<div class="container-fluid fixed-top">
+		<nav class="container-fluid fixed-top">
 			<div class="row">
 				<div class="col-md-12 d-flex justify-content-between bg-primary text-light p-4">
 					<div>
@@ -34,11 +34,11 @@ Reina theme is library based on bootstrap to make your web page more kawaii just
 					<div class="font-weight-bold">Reina Theme</div>
 				</div>
 			</div>
-		</div>
+		</nav>
 
 		<div class="mt-5 pt-4"></div>
 
-		<div class="container-fluid">
+		<main class="container-fluid">
 			<div class="row">
 				<div class="col-8 col-sm-4 col-md-3 col-xl-2 sidebar bg-light p-0" v-show="navbarActive">
 					<div class="p-5">
@@ -70,7 +70,7 @@ Reina theme is library based on bootstrap to make your web page more kawaii just
 				
 				</div>
 			</div>
-		</div>
+		</main>
 	</div>
 	
 	<script src="assets/script.js"></script>
