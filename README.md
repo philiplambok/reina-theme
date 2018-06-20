@@ -10,7 +10,7 @@ Reina theme is library based on bootstrap to make your web page more kawaii just
 - Vue.js 2
 
 ## Usage 
-1. Copy assets/script.js and assets/style.css to your project. 
+1. Copy `assets/script.js` and `assets/style.css` to your project. 
 2. Use this template
 
 ```html
@@ -19,10 +19,16 @@ Reina theme is library based on bootstrap to make your web page more kawaii just
 <head>
 	<meta charset="UTF-8">
 	<title>Reina Theme</title>
+
+	<!-- bootstrap -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+	<!-- font-awesome -->
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-	<link rel="stylesheet" href="assets/style.css">
+	<!-- vuejs -->
 	<script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
+	
+	<!-- costum css -->
+	<link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
 	<div id="app">
@@ -88,7 +94,6 @@ Reina theme is library based on bootstrap to make your web page more kawaii just
 *Comming soon.* 
 
 ## Demo
-
 <p align="center">
 	<img src="/assets/theme-reina.gif" alt="">
 </p>
