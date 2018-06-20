@@ -92,7 +92,7 @@ Reina theme is library based on bootstrap to make your web page more kawaii just
 3. Don't forget to adjust the relative filename with your project. 
 
 ## Documentation 
-The documentation is writen based features. 
+The documentation is writen based on features. 
 
 ### Navbar 
 - `navbarActive` is a js variable to check status active on navbar. 
