@@ -1,4 +1,5 @@
 # Reina Theme 
+![reina chan](/assets/reina.jpg)
 Reina theme is library based on bootstrap to make your web page more kawaii just like Reina <3. 
 
 ## Prerequisite
@@ -9,7 +10,7 @@ Reina theme is library based on bootstrap to make your web page more kawaii just
 1. Copy assets/script.js and style.css to your project. 
 2. Use this template
 
-```html
+```
 <!DOCTYPE html>
 <html lang="en">
 <head>
