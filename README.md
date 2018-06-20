@@ -78,5 +78,8 @@ Reina theme is library based on bootstrap to make your web page more kawaii just
 </html>
 ``` 
 
-### Documentation 
+## Documentation 
 *Comming soon.* 
+
+## Demo
+[https://philiplambok.github.io/](https://philiplambok.github.io/)
