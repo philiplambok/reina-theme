@@ -10,7 +10,7 @@ Reina theme is library based on bootstrap to make your web page more kawaii just
 - Vue.js 2
 
 ## Usage 
-1. Copy assets/script.js and style.css to your project. 
+1. Copy assets/script.js and assets/style.css to your project. 
 2. Use this template
 
 ```html
@@ -81,6 +81,8 @@ Reina theme is library based on bootstrap to make your web page more kawaii just
 </body>
 </html>
 ``` 
+
+3. Don't forget to adjust the relative filename with your project. 
 
 ## Documentation 
 *Comming soon.* 
