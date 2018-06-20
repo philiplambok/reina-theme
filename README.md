@@ -1,7 +1,8 @@
-# Reina Theme 
 <p align="center">
 	<img src="/assets/reina.jpg" alt="" width="150">
 </p>
+
+# Reina Theme 
 Reina theme is library based on bootstrap to make your web page more kawaii just like Reina <3. 
 
 ## Prerequisite
@@ -85,4 +86,9 @@ Reina theme is library based on bootstrap to make your web page more kawaii just
 *Comming soon.* 
 
 ## Demo
-[https://philiplambok.github.io/](https://philiplambok.github.io/)
+
+<p align="center">
+	<img src="/assets/theme-reina.gif" alt="">
+</p>
+
+link: [https://philiplambok.github.io/](https://philiplambok.github.io/)
