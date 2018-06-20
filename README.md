@@ -4,7 +4,7 @@ Reina theme is library based on bootstrap to make your web page more kawaii just
 
 ## Prerequisite
 - Boostrap 4.0
-- Vue.js 2.0 
+- Vue.js 2
 
 ## Usage 
 1. Copy assets/script.js and style.css to your project. 
