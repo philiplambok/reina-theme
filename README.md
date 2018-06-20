@@ -1,8 +1,5 @@
 
 # Reina Theme 
-
-<img src="/assets/reina.jpg" alt="" width="150">
-
 Reina theme is library based on bootstrap to make your web page more kawaii just like Reina :hearts:. 
 
 <p align="center">
