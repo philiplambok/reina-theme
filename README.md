@@ -5,12 +5,15 @@
 
 Reina theme is library based on bootstrap to make your web page more kawaii just like Reina :hearts:. 
 
+<p align="center">
+	<img src="/assets/theme-reina.gif" alt="">
+</p>
 
 ## Prerequisite
 - Boostrap 4.0
 - Vue.js 2
 
-## Usage 
+## Usage
 1. Copy `assets/script.js` and `assets/style.css` to your project. 
 2. Use this template
 
@@ -101,8 +104,4 @@ The documentation is writen based features.
 - `.sidebar` is a css class for sidebar/navbar.
 
 ## Demo
-<p align="center">
-	<img src="/assets/theme-reina.gif" alt="">
-</p>
-
 link: [https://philiplambok.github.io/](https://philiplambok.github.io/)
