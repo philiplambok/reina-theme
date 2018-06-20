@@ -20,6 +20,10 @@
 	text-decoration: none;
 }
 
+.active{
+	background-color: lightgray !important;
+}
+
 .sidebar .avatar{
 	background-color: deeppink;
 }

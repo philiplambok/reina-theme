@@ -5,7 +5,7 @@
 	<title>Reina Theme</title>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="assets/style.css">
 	<script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
 </head>
 <body>
@@ -30,15 +30,18 @@
 			<div class="row">
 				<div class="col-8 col-sm-4 col-md-3 col-xl-2 sidebar bg-light p-0" v-show="navbarActive">
 					<div class="p-5">
-						<img src="reina.jpg" alt="" class="avatar m-0 p-0 img-fluid rounded-circle p-1">
+						<img src="assets/reina.jpg" alt="" class="avatar m-0 p-0 img-fluid rounded-circle p-1">
 					</div>
 
 					<ul>
 						<a href="#">
-							<li>Home</li>
+							<li class="active">Home</li>
 						</a>
 						<a href="#">
 							<li>About</li>
+						</a>
+						<a href="#">
+							<li>Blogs</li>
 						</a>
 						<a href="#">
 							<li>Books</li>
@@ -50,28 +53,23 @@
 							<li>Animes</li>
 						</a>
 						<a href="#">
-							<li>Animes</li>
-						</a>
-						<a href="#">
-							<li>Animes</li>
-						</a>
-						<a href="#">
-							<li>Animes</li>
-						</a>
-						<a href="#">
-							<li>Animes</li>
-						</a>
-						<a href="#">
-							<li>Animes</li>
-						</a>
-						<a href="#">
-							<li>Animes</li>
+							<li>Projects</li>
 						</a>
 					</ul>
 				</div>
 
-				<div class="" :class="{ 'col-sm-8 offset-sm-4 col-md-9 offset-md-3 col-xl-10 offset-xl-2': navbarActive, 'col-12': !navbarActive }">
+				<div :class="{ 'col-sm-8 offset-sm-4 col-md-9 offset-md-3 col-xl-10 offset-xl-2': navbarActive, 'col-12': !navbarActive }">
 
+					<article class="my-4">
+						<h3>This is title of article</h3>
+						<p class="text-secondary"> Philip lambok &middot; 20/06/2017 </p>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora pariatur sit illum numquam nihil sint, atque necessitatibus, odio nam aspernatur ad ratione delectus voluptatem eius accusantium incidunt, officiis quibusdam rem.
+						</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro dignissimos unde pariatur itaque nemo at adipisci quos molestias odio distinctio ut earum, repudiandae debitis accusamus sed nisi velit exercitationem ullam commodi deleniti, inventore, eaque nostrum fuga rem. Earum, totam quae.</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita deserunt ad vero officiis est quaerat, minus dicta omnis qui sequi ipsum. Autem, neque, fuga. Deserunt dicta reiciendis facilis. Rerum odit, soluta nisi eos numquam quae excepturi consectetur enim, labore maxime, quidem laborum ipsum accusamus harum mollitia, eveniet magnam a perspiciatis suscipit esse! Explicabo reprehenderit debitis magni. Possimus asperiores aut quod a, quis veniam autem officiis natus odit reprehenderit, molestias aperiam recusandae facere cumque sequi libero nihil consequatur dolor dolore necessitatibus aliquid ipsum veritatis, deleniti earum omnis! Inventore ducimus, sed incidunt.</p>
+					</article>
+					
 					<article class="my-4">
 						<h3>This is title of article</h3>
 						<p>
@@ -80,20 +78,11 @@
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro dignissimos unde pariatur itaque nemo at adipisci quos molestias odio distinctio ut earum, repudiandae debitis accusamus sed nisi velit exercitationem ullam commodi deleniti, inventore, eaque nostrum fuga rem. Earum, totam quae.</p>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita deserunt ad vero officiis est quaerat, minus dicta omnis qui sequi ipsum. Autem, neque, fuga. Deserunt dicta reiciendis facilis. Rerum odit, soluta nisi eos numquam quae excepturi consectetur enim, labore maxime, quidem laborum ipsum accusamus harum mollitia, eveniet magnam a perspiciatis suscipit esse! Explicabo reprehenderit debitis magni. Possimus asperiores aut quod a, quis veniam autem officiis natus odit reprehenderit, molestias aperiam recusandae facere cumque sequi libero nihil consequatur dolor dolore necessitatibus aliquid ipsum veritatis, deleniti earum omnis! Inventore ducimus, sed incidunt.</p>
 					</article>
-					<article class="my-4">
-						<h3>This is title of article</h3>
-						<p>
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora pariatur sit illum numquam nihil sint, atque necessitatibus, odio nam aspernatur ad ratione delectus voluptatem eius accusantium incidunt, officiis quibusdam rem.
-						</p>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro dignissimos unde pariatur itaque nemo at adipisci quos molestias odio distinctio ut earum, repudiandae debitis accusamus sed nisi velit exercitationem ullam commodi deleniti, inventore, eaque nostrum fuga rem. Earum, totam quae.</p>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita deserunt ad vero officiis est quaerat, minus dicta omnis qui sequi ipsum. Autem, neque, fuga. Deserunt dicta reiciendis facilis. Rerum odit, soluta nisi eos numquam quae excepturi consectetur enim, labore maxime, quidem laborum ipsum accusamus harum mollitia, eveniet magnam a perspiciatis suscipit esse! Explicabo reprehenderit debitis magni. Possimus asperiores aut quod a, quis veniam autem officiis natus odit reprehenderit, molestias aperiam recusandae facere cumque sequi libero nihil consequatur dolor dolore necessitatibus aliquid ipsum veritatis, deleniti earum omnis! Inventore ducimus, sed incidunt.</p>
-					</article>
-
 				</div>
 			</div>
 		</div>
 	</div>
 	
-	<script src="script.js"></script>
+	<script src="assets/script.js"></script>
 </body>
 </html>

@@ -13,6 +13,8 @@ new Vue({
 		watchStatusNavbar(){
 			if(window.innerWidth < 760) {
 				this.navbarActive = false
+			}else {
+				this.navbarActive = true
 			}
 		}
 	},
