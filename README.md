@@ -101,4 +101,4 @@ The documentation is writen based on features.
 - `.sidebar` is a css class for sidebar/navbar.
 
 ## Demo
-link: [https://philiplambok.github.io/](https://philiplambok.github.io/)
+link: [https://philiplambok.github.io/](https://philiplambok.github.io/) 
