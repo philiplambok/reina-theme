@@ -75,7 +75,9 @@ Reina theme is library based on bootstrap to make your web page more kawaii just
           </ul>
         </div>
 
-        <div :class="{ 'col-sm-8 offset-sm-4 col-md-9 offset-md-3 col-xl-10 offset-xl-2': navbarActive, 'col-12': !navbarActive }">
+        <div 
+        :class="{ 'col-sm-8 offset-sm-4 col-md-9 offset-md-3 col-xl-10 offset-xl-2': navbarActive,
+        'col-12': !navbarActive }">
 
           <!-- insert your main content here -->
 
