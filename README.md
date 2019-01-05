@@ -91,7 +91,7 @@ Reina theme is library based on bootstrap to make your web page more kawaii just
 </html>
 ```
 
-1. Don't forget to adjust the relative filename with your project.
+*Note: Don't forget to adjust the relative filename with your project.*
 
 ## Documentation
 The documentation is writen based on features.
