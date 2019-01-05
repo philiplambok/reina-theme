@@ -1,6 +1,6 @@
 
-# Reina Theme 
-Reina theme is library based on bootstrap to make your web page more kawaii just like Reina :hearts:. 
+# Reina Theme
+Reina theme is library based on bootstrap to make your web page more kawaii just like Reina :hearts:.
 
 <p align="center">
 	<img src="/assets/theme-reina.gif" alt="">
@@ -11,7 +11,7 @@ Reina theme is library based on bootstrap to make your web page more kawaii just
 - Vue.js 2
 
 ## Usage
-1. Copy `assets/script.js` and `assets/style.css` to your project. 
+1. Copy `assets/script.js` and `assets/style.css` to your project.
 2. Use this template
 
 ```html
@@ -27,7 +27,7 @@ Reina theme is library based on bootstrap to make your web page more kawaii just
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 	<!-- vuejs -->
 	<script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
-	
+
 	<!-- costum css -->
 	<link rel="stylesheet" href="assets/style.css">
 </head>
@@ -41,7 +41,7 @@ Reina theme is library based on bootstrap to make your web page more kawaii just
 							<i class="fas fa-bars"></i>
 						</a>
 					</div>
-					
+
 					<div class="font-weight-bold">Reina Theme</div>
 				</div>
 			</div>
@@ -78,27 +78,27 @@ Reina theme is library based on bootstrap to make your web page more kawaii just
 				<div :class="{ 'col-sm-8 offset-sm-4 col-md-9 offset-md-3 col-xl-10 offset-xl-2': navbarActive, 'col-12': !navbarActive }">
 
 					<!-- insert your main content here -->
-				
+
 				</div>
 			</div>
 		</main>
 	</div>
-	
+
 	<script src="assets/script.js"></script>
 </body>
 </html>
-``` 
+```
 
-3. Don't forget to adjust the relative filename with your project. 
+3. Don't forget to adjust the relative filename with your project.
 
-## Documentation 
-The documentation is writen based on features. 
+## Documentation
+The documentation is writen based on features.
 
-### Navbar 
-- `navbarActive` is a js variable to check status active on navbar. 
-- `toogleNavbar()` is a js method to toggle the navbar 
-- `watchStatusNavbar()` is a js method be use to watch screen size. This method will make navbar more dynamic. 
+### Navbar
+- `navbarActive` is a js variable to check status active on navbar.
+- `toogleNavbar()` is a js method to toggle the navbar
+- `watchStatusNavbar()` is a js method be use to watch screen size. This method will make navbar more dynamic.
 - `.sidebar` is a css class for sidebar/navbar.
 
 ## Demo
-link: [https://philiplambok.github.io/](https://philiplambok.github.io/) 
+link: [https://philiplambok.github.io/](https://philiplambok.github.io/)
